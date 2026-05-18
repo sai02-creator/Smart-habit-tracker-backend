@@ -6,7 +6,7 @@ import {
   chatAnalysis,
   morningMotivation,
 } from "../controllers/aiController.js";
-import { protect } from "../middleware/auth.js";
+import  protect  from "../middleware/auth.js";
 
 const router = express.Router();
 
